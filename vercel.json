@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "public": true,
+  "cleanUrls": false,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/public/$1" }
+  ]
+}
+
