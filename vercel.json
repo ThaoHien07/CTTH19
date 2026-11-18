@@ -1,9 +1,5 @@
 {
-  "version": 2,
-  "public": true,
-  "cleanUrls": false,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/public/$1" }
-  ]
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "public",
+  "cleanUrls": false
 }
-
